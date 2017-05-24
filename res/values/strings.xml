@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info">Waiting for GPS..</string>
+    <string name="app_name">Basic Speedometer</string>
+    <string name="HUD_menu_name">Hud Mode</string>
+    <string name="HUD_ON">Hud ON</string>
+    <string name="HUD_OFF">Hud OFF</string>
+    <string name="about_menu_name">About</string>
+    <string name="about_message">A Basic speedometer</string>
+<string name="unit_km">Kilometer</string>
+<string name="unit_miles">Miles Per Hour</string>
+<string name="setting_unit">Measurement Unit</string>
+</resources>

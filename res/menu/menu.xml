@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item 
+                android:id="@+id/menu_settings" 
+                android:titleCondensed="@string/setting_unit" 
+                android:title="@string/setting_unit" 
+                android:icon="@android:drawable/ic_menu_preferences">
+                <menu>
+            <item android:id="@+id/unit_km"
+                  android:title="@string/unit_km" />
+            <item android:id="@+id/unit_miles"
+                  android:title="@string/unit_miles" />
+        </menu>
+        </item>
+        <item 
+                android:id="@+id/menu_about" 
+                android:titleCondensed="@string/about_menu_name" 
+                android:title="@string/about_menu_name"
+                android:icon="@android:drawable/ic_menu_help">
+        </item>
+          <item 
+                android:id="@+id/menu_HUD" 
+                android:titleCondensed="@string/HUD_menu_name" 
+                android:title="@string/HUD_menu_name"
+                android:icon="@android:drawable/ic_menu_preferences">
+                <menu>
+               <item android:id="@+id/HUD_ON"
+                     android:title="@string/HUD_ON" />
+               <item android:id="@+id/HUD_OFF"
+                     android:title="@string/HUD_OFF" />
+                </menu>
+        </item>
+</menu>
